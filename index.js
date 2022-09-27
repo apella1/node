@@ -3,7 +3,9 @@ console.log('Hello from this end of town');
 // using node we can run any javascript file within the terminal and the javascript file extension doesn't have to be included 
 // the node modules shouldn't be deployed with the other files. when in production, the available dependencies in the package.json file can be be reinstalled using 'npm install' 
 
-const person = require('./person');
+const person = require('./person'); // common js
+
+console.log(__dirname, __filename);
 
 console.log(person);
 

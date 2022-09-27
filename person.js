@@ -21,4 +21,8 @@ module.exports = Person;
 // the const modifier can only be used in typescript files when working with class components.
 // this is when trying to have a function expression within the class constructor 
 
-// ? what are module wrapper functions 
+// ? what are module wrapper functions -  wrapped around functions that we do not intend to run
+
+// (function(exports, module, require, __filename, __dirname){
+
+// })
