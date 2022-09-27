@@ -1,16 +1,16 @@
-const path = require('path');
+import { basename, dirname, extname, parse, join } from 'path';
 
 // basename - gets base file name 
-console.log(path.basename(__filename));
+console.log(basename(__filename));
 
 // directory name
-console.log(path.dirname(__filename));
+console.log(dirname(__filename));
 
 // file extension
-console.log(path.extname(__filename));
+console.log(extname(__filename));
 
 // create path object - file name without the extension
-console.log(path.parse(__filename));
+console.log(parse(__filename));
 
 // concatenating paths 
-console.log(path.join(__dirname, 'test', 'hello.html'));
+console.log(join(__dirname, 'test', 'hello.html'));

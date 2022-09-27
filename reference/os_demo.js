@@ -1,22 +1,22 @@
-const os = require('os');
+import { platform, arch, cpus, freemem, totalmem, homedir, uptime } from 'os';
 
 // platform 
-console.log(os.platform());
+console.log(platform());
 
 // cpu architecture 
-console.log(os.arch());
+console.log(arch());
 
 // cpu core info
-console.log(os.cpus());
+console.log(cpus());
 
 // free memory
-console.log(os.freemem());
+console.log(freemem());
 
 // total memory
-console.log(os.totalmem());
+console.log(totalmem());
 
 //home directory 
-console.log(os.homedir());
+console.log(homedir());
 
 // uptime
-console.log(os.uptime());
+console.log(uptime());

@@ -1,4 +1,4 @@
-const url = require('url');
+import url from 'url';
 
 const myUrl = new URL('http://mywebsite.com/hello.html');
 
