@@ -1,14 +1,16 @@
 const person = { 
     name: 'John Doe', 
-    age: 67
+    age: 67,
+    hobbies: ['Singing', 4, 'Random walks down the street', 'Programming', 'Playing chess']
 }
 
 module.exports = person;
 
 class Person { 
-    constructor (name, age) {
+    constructor (name, age, hobbies) {
          this.name = name;
          this.age = age;
+         this.hobbies = hobbies;
     } 
 
     summary () { 

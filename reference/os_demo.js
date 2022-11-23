@@ -20,3 +20,4 @@ console.log(homedir());
 
 // uptime
 console.log(uptime());
+
